@@ -1,0 +1,198 @@
+{
+  "evidence_items": [
+    {
+      "actor_or_source": "unknown",
+      "date": "unknown",
+      "evidence_id": "EVD-001",
+      "file_name": "README.md",
+      "hash": "0e7910c281ae625e9e517472e29fa222e75933a81c83c7af79a063020a11b04c",
+      "linked_chronology_events": [],
+      "linked_issue_categories": [],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "matter_note",
+      "summary": "This is synthetic sample data for demonstration purposes only."
+    },
+    {
+      "actor_or_source": "Casey Rowan",
+      "date": "2026-02-25",
+      "evidence_id": "EVD-002",
+      "file_name": "correspondence/demand_response.md",
+      "hash": "f48db1b46eb98b7ebfd5dc0a6aac75e5a91b9b20d0ca099ae7a0321eaa319806",
+      "linked_chronology_events": [
+        "CHR-014"
+      ],
+      "linked_issue_categories": [
+        "correspondence risk",
+        "notice/compliance signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "correspondence",
+      "summary": "A fictional HR representative acknowledges receipt of Jordan's draft concerns and says the company will review available records."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-01-14",
+      "evidence_id": "EVD-003",
+      "file_name": "correspondence/email_001.md",
+      "hash": "5fa4b8b2195b2bd778b13772885cf9034040aa4036e3413fe6b55e787837c761",
+      "linked_chronology_events": [
+        "CHR-004"
+      ],
+      "linked_issue_categories": [
+        "correspondence risk",
+        "wage/hour signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "correspondence",
+      "summary": "Jordan asks whether post-shift reconciliation time should be entered on the timesheet."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-02-12",
+      "evidence_id": "EVD-004",
+      "file_name": "correspondence/email_002.md",
+      "hash": "3e0e4bb6bdff5fc373629f2d85744fc7765807b90024243117459f6a9edad43d",
+      "linked_chronology_events": [
+        "CHR-011"
+      ],
+      "linked_issue_categories": [
+        "correspondence risk",
+        "documentation gap",
+        "termination/procedure signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "correspondence",
+      "summary": "Jordan disputes the written warning and asks for the attachment referenced in the warning email."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-02-24",
+      "evidence_id": "EVD-005",
+      "file_name": "drafts/draft_demand_letter.md",
+      "hash": "d1de7676f874f944c24101dfade89e5f280bb97223f7042257056574f6f7ba0b",
+      "linked_chronology_events": [],
+      "linked_issue_categories": [],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "draft",
+      "summary": "Synthetic draft demand-style letter included to test drafting support and red-team review."
+    },
+    {
+      "actor_or_source": "Riverbend Components LLC",
+      "date": "2026-01-01",
+      "evidence_id": "EVD-006",
+      "file_name": "evidence/policy_excerpt.md",
+      "hash": "fc00fd0ce32a582efe27dbf43eb294837714cac7f9b2b53baa235674a710cfc6",
+      "linked_chronology_events": [
+        "CHR-001"
+      ],
+      "linked_issue_categories": [
+        "notice/compliance signal",
+        "wage/hour signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "evidence",
+      "summary": "Fictional excerpt from a timekeeping and reporting policy."
+    },
+    {
+      "actor_or_source": "Morgan Lee",
+      "date": "2026-02-18",
+      "evidence_id": "EVD-007",
+      "file_name": "evidence/termination_notice.md",
+      "hash": "81595170c064e597f31d56136f74132e40ee1299394999d98958b5b873a5d97b",
+      "linked_chronology_events": [
+        "CHR-012"
+      ],
+      "linked_issue_categories": [
+        "retaliation signal",
+        "termination/procedure signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "evidence",
+      "summary": "Notice ending Jordan's temporary assignment and citing performance concerns."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-01-30",
+      "evidence_id": "EVD-008",
+      "file_name": "evidence/timesheet_notes.md",
+      "hash": "c32c9d77713343d92d790e84a2b8edbd69dc9bc2c4ed98ae5992b7c9e2893e59",
+      "linked_chronology_events": [
+        "CHR-006",
+        "CHR-007"
+      ],
+      "linked_issue_categories": [
+        "evidence gap",
+        "wage/hour signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "evidence",
+      "summary": "Notes listing three days where Jordan believes post-shift work occurred."
+    },
+    {
+      "actor_or_source": "Avery Patel",
+      "date": "2026-02-20",
+      "evidence_id": "EVD-009",
+      "file_name": "evidence/witness_note.md",
+      "hash": "4443db609b25eaf53414dff1bb0462e9bfbd6a973212c44ee0a44fd18233853b",
+      "linked_chronology_events": [
+        "CHR-008"
+      ],
+      "linked_issue_categories": [
+        "evidence gap",
+        "retaliation signal",
+        "witness signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "evidence",
+      "summary": "A fictional coworker note states that Jordan raised timekeeping questions during a team huddle."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-01-05",
+      "evidence_id": "EVD-010",
+      "file_name": "facts.md",
+      "hash": "167e1e950ad6c9a74a31ea81a463981ae46eec45b352870a2087b1e4923a3774",
+      "linked_chronology_events": [
+        "CHR-002",
+        "CHR-005",
+        "CHR-009",
+        "CHR-010"
+      ],
+      "linked_issue_categories": [
+        "correspondence risk",
+        "documentation gap",
+        "notice/compliance signal",
+        "retaliation signal",
+        "termination/procedure signal",
+        "wage/hour signal",
+        "witness signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "facts",
+      "summary": "The fact notes describe a sequence of workplace concerns, internal correspondence, and a termination notice. Several details remain unverified."
+    },
+    {
+      "actor_or_source": "Jordan Ellis",
+      "date": "2026-01-08",
+      "evidence_id": "EVD-011",
+      "file_name": "intake.md",
+      "hash": "1a81115874ea2f8781709b13df34490a88ab39d03ce8fd0534e6065648c3cbef",
+      "linked_chronology_events": [
+        "CHR-003",
+        "CHR-013"
+      ],
+      "linked_issue_categories": [
+        "documentation gap",
+        "evidence gap",
+        "retaliation signal",
+        "termination/procedure signal",
+        "wage/hour signal"
+      ],
+      "review_notes": "Human review required before relying on this source for legal significance.",
+      "source_type": "intake",
+      "summary": "Jordan Ellis reports that after raising concerns about timekeeping instructions and missed rest breaks, a supervisor issued a written warning and later ended Jordan's assignment. The matter materials contain partial support, conflicting recollections, and missing documentation."
+    }
+  ],
+  "legal_advice_boundary": "This artifact is not legal advice and does not replace attorney judgment. It organizes matter materials for qualified human/legal review.",
+  "matter_id": "SYN-WORKPLACE-001"
+}

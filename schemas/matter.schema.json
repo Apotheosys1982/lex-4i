@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matter",
+  "type": "object",
+  "required": ["matter_id", "documents"],
+  "properties": {
+    "matter_id": { "type": "string" },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "source_type", "sha256"],
+        "properties": {
+          "path": { "type": "string" },
+          "source_type": { "type": "string" },
+          "sha256": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

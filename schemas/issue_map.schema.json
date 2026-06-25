@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Issue Risk Map",
+  "type": "object",
+  "required": ["matter_id", "legal_advice_boundary", "issues"],
+  "properties": {
+    "matter_id": { "type": "string" },
+    "legal_advice_boundary": { "type": "string" },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category", "related_events", "supporting_source_references", "missing_information", "review_priority", "human_review_required"],
+        "properties": {
+          "category": { "type": "string" },
+          "related_events": { "type": "array" },
+          "supporting_source_references": { "type": "array" },
+          "missing_information": { "type": "array" },
+          "review_priority": { "type": "string" },
+          "human_review_required": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
+

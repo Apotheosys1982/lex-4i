@@ -1,0 +1,219 @@
+{
+  "events": [
+    {
+      "actor": "Riverbend Components LLC",
+      "confidence": "high",
+      "date": "2026-01-01",
+      "description": "A policy excerpt states that hourly workers should record all time worked and report missed breaks to a supervisor.",
+      "event_id": "CHR-001",
+      "issue_tags": [
+        "wage/hour signal",
+        "notice/compliance signal"
+      ],
+      "notes": "Version completeness must be reviewed.",
+      "source_excerpt_or_reference": "All hourly personnel should record all time worked. Missed breaks, interrupted breaks, and post-shift work should be reported to a supervisor.",
+      "source_file": "evidence/policy_excerpt.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "high",
+      "date": "2026-01-05",
+      "description": "Jordan starts a temporary inventory coordinator assignment at Riverbend Components LLC.",
+      "event_id": "CHR-002",
+      "issue_tags": [
+        "notice/compliance signal"
+      ],
+      "notes": "Start date appears in intake notes and termination notice.",
+      "source_excerpt_or_reference": "facts.md",
+      "source_file": "facts.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "medium",
+      "date": "2026-01-08",
+      "description": "Jordan reports being told to finish inventory reconciliation after clocking out.",
+      "event_id": "CHR-003",
+      "issue_tags": [
+        "wage/hour signal",
+        "documentation gap",
+        "evidence gap"
+      ],
+      "notes": "Intake summary references off-clock work but source documents do not yet include payroll detail.",
+      "source_excerpt_or_reference": "intake.md",
+      "source_file": "intake.md",
+      "support_status": "partially supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "high",
+      "date": "2026-01-14",
+      "description": "Jordan asks Morgan whether post-shift reconciliation work should be entered on the timesheet.",
+      "event_id": "CHR-004",
+      "issue_tags": [
+        "wage/hour signal",
+        "correspondence risk"
+      ],
+      "notes": "Direct correspondence supports the event.",
+      "source_excerpt_or_reference": "If we are asked to finish the variance report after clock-out, should that time be added to the time sheet?",
+      "source_file": "correspondence/email_001.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "high",
+      "date": "2026-01-14",
+      "description": "Jordan sends a written question about whether post-shift inventory reconciliation should be recorded as paid time.",
+      "event_id": "CHR-005",
+      "issue_tags": [
+        "wage/hour signal",
+        "correspondence risk"
+      ],
+      "notes": "Supported by email_001.md.",
+      "source_excerpt_or_reference": "facts.md",
+      "source_file": "facts.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "medium",
+      "date": "2026-01-22",
+      "description": "Jordan records a note that post-shift inventory reconciliation continued for approximately twenty minutes.",
+      "event_id": "CHR-006",
+      "issue_tags": [
+        "wage/hour signal",
+        "evidence gap"
+      ],
+      "notes": "Personal notes support recollection but payroll records are missing.",
+      "source_excerpt_or_reference": "evidence/timesheet_notes.md",
+      "source_file": "evidence/timesheet_notes.md",
+      "support_status": "partially supported"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "medium",
+      "date": "2026-01-29",
+      "description": "Jordan records a note that a variance report was completed after the scheduled shift.",
+      "event_id": "CHR-007",
+      "issue_tags": [
+        "wage/hour signal",
+        "evidence gap"
+      ],
+      "notes": "Needs corroboration from system logs or timesheets.",
+      "source_excerpt_or_reference": "evidence/timesheet_notes.md",
+      "source_file": "evidence/timesheet_notes.md",
+      "support_status": "partially supported"
+    },
+    {
+      "actor": "Avery Patel",
+      "confidence": "medium",
+      "date": "2026-02-04",
+      "description": "Avery Patel recalls Jordan raising timekeeping concerns during a team huddle.",
+      "event_id": "CHR-008",
+      "issue_tags": [
+        "retaliation signal",
+        "witness signal",
+        "evidence gap"
+      ],
+      "notes": "The note is retrospective and should be reviewed with the witness.",
+      "source_excerpt_or_reference": "I remember Jordan asking during the huddle whether the variance report time was supposed to be paid if done after the shift.",
+      "source_file": "evidence/witness_note.md",
+      "support_status": "partially supported"
+    },
+    {
+      "actor": "Avery Patel",
+      "confidence": "medium",
+      "date": "2026-02-04",
+      "description": "Avery Patel states that Jordan raised the timekeeping concern during a team huddle.",
+      "event_id": "CHR-009",
+      "issue_tags": [
+        "retaliation signal",
+        "witness signal"
+      ],
+      "notes": "Witness note is dated after the event and should be reviewed.",
+      "source_excerpt_or_reference": "facts.md",
+      "source_file": "facts.md",
+      "support_status": "partially supported"
+    },
+    {
+      "actor": "Morgan Lee",
+      "confidence": "medium",
+      "date": "2026-02-11",
+      "description": "Morgan Lee issues a written warning for incomplete cycle-count reconciliation.",
+      "event_id": "CHR-010",
+      "issue_tags": [
+        "termination/procedure signal",
+        "documentation gap"
+      ],
+      "notes": "Jordan disputes whether the warning omitted staffing and access issues.",
+      "source_excerpt_or_reference": "facts.md",
+      "source_file": "facts.md",
+      "support_status": "conflicting information"
+    },
+    {
+      "actor": "Jordan Ellis",
+      "confidence": "high",
+      "date": "2026-02-12",
+      "description": "Jordan disputes the written warning and requests the referenced attachment.",
+      "event_id": "CHR-011",
+      "issue_tags": [
+        "termination/procedure signal",
+        "documentation gap",
+        "correspondence risk"
+      ],
+      "notes": "The attachment is referenced but missing from the sample matter.",
+      "source_excerpt_or_reference": "The warning mentions an attached reconciliation log, but I do not see the attachment. Please send the log so I can respond accurately.",
+      "source_file": "correspondence/email_002.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Morgan Lee",
+      "confidence": "high",
+      "date": "2026-02-18",
+      "description": "Morgan Lee sends a notice ending Jordan's temporary assignment.",
+      "event_id": "CHR-012",
+      "issue_tags": [
+        "termination/procedure signal",
+        "retaliation signal"
+      ],
+      "notes": "Notice gives performance as the reason, but supporting documents are incomplete.",
+      "source_excerpt_or_reference": "Your temporary assignment is ending effective today based on continuing reconciliation errors and failure to complete assigned closeout tasks.",
+      "source_file": "evidence/termination_notice.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Morgan Lee",
+      "confidence": "medium",
+      "date": "2026-02-18",
+      "description": "Morgan Lee ends Jordan's assignment after a disputed performance meeting.",
+      "event_id": "CHR-013",
+      "issue_tags": [
+        "termination/procedure signal",
+        "retaliation signal",
+        "documentation gap"
+      ],
+      "notes": "Termination notice exists, but decision-maker chain is incomplete.",
+      "source_excerpt_or_reference": "intake.md",
+      "source_file": "intake.md",
+      "support_status": "supported"
+    },
+    {
+      "actor": "Casey Rowan",
+      "confidence": "high",
+      "date": "2026-02-25",
+      "description": "HR acknowledges receiving Jordan's draft concerns and says the records will be reviewed.",
+      "event_id": "CHR-014",
+      "issue_tags": [
+        "correspondence risk",
+        "notice/compliance signal"
+      ],
+      "notes": "Acknowledgment does not concede the facts or legal significance.",
+      "source_excerpt_or_reference": "We acknowledge receipt of your concerns and will review available timekeeping, scheduling, and performance records.",
+      "source_file": "correspondence/demand_response.md",
+      "support_status": "supported"
+    }
+  ],
+  "legal_advice_boundary": "This artifact is not legal advice and does not replace attorney judgment. It organizes matter materials for qualified human/legal review.",
+  "matter_id": "SYN-WORKPLACE-001"
+}

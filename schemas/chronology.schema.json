@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chronology",
+  "type": "object",
+  "required": ["matter_id", "legal_advice_boundary", "events"],
+  "properties": {
+    "matter_id": { "type": "string" },
+    "legal_advice_boundary": { "type": "string" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "date", "actor", "description", "source_file", "support_status", "confidence", "notes"],
+        "properties": {
+          "event_id": { "type": "string" },
+          "date": { "type": "string" },
+          "actor": { "type": "string" },
+          "description": { "type": "string" },
+          "source_file": { "type": "string" },
+          "support_status": { "type": "string" },
+          "confidence": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

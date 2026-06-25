@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Index",
+  "type": "object",
+  "required": ["matter_id", "legal_advice_boundary", "evidence_items"],
+  "properties": {
+    "matter_id": { "type": "string" },
+    "legal_advice_boundary": { "type": "string" },
+    "evidence_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "file_name", "source_type", "summary", "hash", "linked_chronology_events", "linked_issue_categories", "review_notes"],
+        "properties": {
+          "evidence_id": { "type": "string" },
+          "file_name": { "type": "string" },
+          "source_type": { "type": "string" },
+          "summary": { "type": "string" },
+          "hash": { "type": "string" },
+          "linked_chronology_events": { "type": "array" },
+          "linked_issue_categories": { "type": "array" },
+          "review_notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

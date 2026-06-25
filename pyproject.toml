@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lex-4i"
+version = "0.1.0"
+description = "AI-assisted legal-ops harness for matter intake, evidence indexing, issue mapping, drafting review, and receipt-backed workflow artifacts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "John P. Barros III" }]
+keywords = ["legal-ops", "compliance", "workflow", "evidence-indexing", "chronology", "red-team-review", "receipts", "ai-workflow"]
+dependencies = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Office/Business",
+  "Topic :: Software Development :: Quality Assurance",
+  "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+lex-4i = "lex_4i.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["lex_4i*"]

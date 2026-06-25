@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matter Receipt",
+  "type": "object",
+  "required": [
+    "run_timestamp",
+    "matter_id",
+    "input_folder",
+    "output_folder",
+    "files_processed",
+    "source_file_hashes",
+    "outputs_generated",
+    "chronology_event_count",
+    "evidence_item_count",
+    "issue_category_count",
+    "unsupported_claim_count",
+    "missing_info_item_count",
+    "validation_status",
+    "human_review_required",
+    "legal_advice_boundary"
+  ],
+  "properties": {
+    "run_timestamp": { "type": "string" },
+    "matter_id": { "type": "string" },
+    "input_folder": { "type": "string" },
+    "output_folder": { "type": "string" },
+    "files_processed": { "type": "array" },
+    "source_file_hashes": { "type": "object" },
+    "outputs_generated": { "type": "array" },
+    "chronology_event_count": { "type": "integer" },
+    "evidence_item_count": { "type": "integer" },
+    "issue_category_count": { "type": "integer" },
+    "unsupported_claim_count": { "type": "integer" },
+    "missing_info_item_count": { "type": "integer" },
+    "validation_status": { "type": "string" },
+    "human_review_required": { "type": "boolean" },
+    "legal_advice_boundary": { "type": "string" }
+  }
+}
+

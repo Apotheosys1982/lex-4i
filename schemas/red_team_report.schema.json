@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Red Team Report",
+  "type": "object",
+  "required": ["matter_id", "draft_file", "legal_advice_boundary", "findings", "unsupported_claims"],
+  "properties": {
+    "matter_id": { "type": "string" },
+    "draft_file": { "type": "string" },
+    "legal_advice_boundary": { "type": "string" },
+    "findings": { "type": "array" },
+    "unsupported_claims": { "type": "array" }
+  }
+}
+

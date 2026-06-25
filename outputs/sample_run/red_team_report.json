@@ -1,0 +1,87 @@
+{
+  "draft_file": "/Users/johnbarros/Documents/Codex/04_products_and_verticals/lex-4i/sample_matter/drafts/draft_demand_letter.md",
+  "findings": [
+    {
+      "category": "long assertion review",
+      "line": 12,
+      "review_note": "Long assertions should be checked against source support before use.",
+      "text": "I am writing about my assignment at Riverbend Components LLC. I raised concerns about post-shift inventory work and whether that time should be recorded. After that, I received a warning and my assignment ended."
+    },
+    {
+      "category": "unsupported marker",
+      "line": 14,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company clearly violated the law by firing me for asking about wages."
+    },
+    {
+      "category": "legal conclusion risk",
+      "line": 14,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company clearly violated the law by firing me for asking about wages."
+    },
+    {
+      "category": "unsupported marker",
+      "line": 16,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "I was forced to work off the clock every single day of my assignment."
+    },
+    {
+      "category": "absolute language risk",
+      "line": 16,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "I was forced to work off the clock every single day of my assignment."
+    },
+    {
+      "category": "unsupported marker",
+      "line": 18,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company owes exactly $18,450 in wages and penalties."
+    },
+    {
+      "category": "unsupported damages figure",
+      "line": 18,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company owes exactly $18,450 in wages and penalties."
+    }
+  ],
+  "legal_advice_boundary": "This artifact is not legal advice and does not replace attorney judgment. It organizes matter materials for qualified human/legal review.",
+  "matter_id": "SYN-WORKPLACE-001",
+  "unsupported_claims": [
+    {
+      "category": "unsupported marker",
+      "line": 14,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company clearly violated the law by firing me for asking about wages."
+    },
+    {
+      "category": "legal conclusion risk",
+      "line": 14,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company clearly violated the law by firing me for asking about wages."
+    },
+    {
+      "category": "unsupported marker",
+      "line": 16,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "I was forced to work off the clock every single day of my assignment."
+    },
+    {
+      "category": "absolute language risk",
+      "line": 16,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "I was forced to work off the clock every single day of my assignment."
+    },
+    {
+      "category": "unsupported marker",
+      "line": 18,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company owes exactly $18,450 in wages and penalties."
+    },
+    {
+      "category": "unsupported damages figure",
+      "line": 18,
+      "review_note": "Human/legal review required before relying on or sending this assertion.",
+      "text": "The company owes exactly $18,450 in wages and penalties."
+    }
+  ]
+}
